@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/MIRROR/mirror.html -->
+<html lang="fa"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sogand mola">
+
+
+    <title>Mirror</title>
+    <link rel="stylesheet" href="./Mirror_files/style.mirorr.css">
+</head>
+<body>
+    <div class="moqadame">
+        <h2 id="welcome"> Welcome to Mirror</h2>
+        <h2>
+             <p dir="rtl"> تو این آینه میتونی خودتُ هرجوری که دوست داری ببینی !</p>
+             <p dir="rtl">ما میخواهیم دنیا را تغییر دهیم، و برای تغییر دنیا باید از تغییر در خودمان شروع کنیم !</p>
+        </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1 dir="rtl">تغییر را چگونه شروع کنیم ؟</h1>
+        <h3 dir="rtl">مطمئنم اگه وارد این سایت شدی قطعا توعم از بچگی به تغییر دنیا فکر میکردی !
+            پس میخوام بهت بگم که نزار دنیای بزرگونه و روزمرگی هایی که ۹۰ درصد اتفاقاش از کنترل ما خارجِ و دولتها  میخوان انجامشون بدیم تو رو ازین رویات منصرف کنن، چون شدنیه !
+            
+            <p dir="rtl">● این پایین برات دو تا باکس گزاشتم:</p>
+            اگر حس میکنی هنوز آمادگی روحی کامل برای تغییر دنیا و شروع فعالیتت در کنار ما رو نداری رو <a href="http://127.0.0.1:5500/MIRROR/right-box.html">باکس سمت راست کلیک کن</a> 
+            ولی اگه خودتم خیلی وقته که این موضوع توی فکرته و میخوای همین الان شروع کنی رو  <a href="http://127.0.0.1:5500/MIRROR/left-box.html">باکس سمت چپ کلیک کن</a>
+            </h3>
+        </div>
+
+        <div id="main">
+            <div id="left">شروع تغییر روی دنیا</div>
+            <div id="right">شروع تغییر روی خودت</div>
+        </div>
+        <br>
+        <div id="circle"></div>
+        <br>
+
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="http://127.0.0.1:5500/MIRROR/mirror.html">من  کیم ؟</a></li>
+                <li><a href="http://127.0.0.1:5500/MIRROR/mirror-articles.html">مقالات</a></li>
+                <li><a href="http://127.0.0.1:5500/MIRROR/mirror.html">ارتباط با من</a></li>
+                <li><a href="http://127.0.0.1:5500/MIRROR/mirror-form.html">عضو شدن در تیم</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="jomle">
+        <h2 dir="rtl">جمله ای که فکر میکنی در تغییر دادن دنیا بهمون کمک میکنه اینجا بنویس :</h2>
+        <label for="">Comment : </label>
+         <textarea name="comment" id="" cols="30" rows="10"></textarea>
+    </div>
+   
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
